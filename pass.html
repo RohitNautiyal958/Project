@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Genrator</title>
+    <link
+      rel="shortcut icon"
+      href="/icons8-password-128.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="pass.css" />
+  </head>
+  <body>
+    <h1>PASSWORD GENRATOR</h1>
+    <div class="main1">
+      <h2>PASSWORD</h2>
+      <img
+        src="http://clipground.com/images/copy-4.png"
+        title="Click to Copy"
+      />
+      
+    </div>
+    <div class="main2">
+   <div id="pas">
+    <p>Password Length</p>
+    <p id="len">8</p>
+
+   </div>
+        <input type="range" min="0" max="20" value="10" id="rng">
+
+        <div  class="modify">
+          
+      
+        <input type="checkbox" name="Numbers" id="num" value="false">
+        <label for="num">Number</label>
+        
+        <input type="checkbox" name="Special character" id="char" value="false">
+        <label for="char">Special character</label>
+        </div>
+        <button id="Gen">GENRATE PASSWORD</button>
+    </div>
+
+    
+  </body>
+  <script src="pass.js"></script>
+</html>
